@@ -1,0 +1,2 @@
+psql -h 54.150.30.249 -U rdsuser -d npb -c "\copy team_history (team_id, start_date, end_date, team_name, city, league, division, stadium_name) from 'C:\Users\Tomonosuke\Downloads\team_history_central_output.csv' csv header null '' encoding 'utf8'
+psql -h 54.150.30.249 -U rdsuser -d npb -c "\copy team_history (team_id, start_date, end_date, team_name, city, league, division, stadium_name) from 'C:\Users\Tomonosuke\Downloads\team_history_pacific_output.csv' csv header null '' encoding 'utf8'
